@@ -1,0 +1,23 @@
+!DOCTYPE html
+html lang=es
+head
+    meta charset=UTF-8
+    titlePrueba Simple FormSubmittitle
+head
+body
+    h1Prueba de Formulario para jefconsultantshield@gmail.comh1
+    form action=httpsformsubmit.cojefconsultantshield@gmail.com method=POST
+        !-- Tu correo para FormSubmit --
+        input type=hidden name=_subject value=Prueba de Activación FormSubmit
+        input type=hidden name=_captcha value=false 
+        
+        label for=emailTu Email de pruebalabel
+        input type=email name=email required value=test@example.com brbr
+        
+        label for=messageMensajelabel
+        textarea name=message requiredHola, esto es una prueba.textarea brbr
+        
+        button type=submitEnviar Pruebabutton
+    form
+body
+html
